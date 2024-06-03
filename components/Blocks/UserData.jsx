@@ -1,7 +1,7 @@
 import { keys } from "../data";
 
 function MeasurementScale({forr}) {
-    const key = keys.find(key => key.name === forr); // forr is [gender, age ,weight, height]
+    const key = keys.find(key => key.name === forr); 
     if(key === undefined) return <></>;
     return (
         <span className='text-xs italic ps-1 text-gray-400'>{key.scale}</span>
@@ -20,7 +20,6 @@ export function UserDataBlock({userData}) {
             {
                 Object.keys(userData).map(( ObjKey, index)=>{
                     // console.log(ObjKey); 
-                    // object.keys == [Genders,height,weight,age];
 
                     return (
                         <div key={index} className='font-bold flex justify-between m-3'>

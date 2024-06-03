@@ -1,15 +1,15 @@
 export const keys = [{
-        name: 'Principal_amount' , type: 'number' , scale : "years"
+        name: 'Principal_amount' , type: 'number' , scale : "Rs"
      },{
-         name: 'Annual_rate' , type: 'number' , scale : "years"
+         name: 'Annual_rate' , type: 'number' , scale : "%"
      },{
          name: 'Years' , type: 'number' , scale : "years"
      },{
-         name: "Times_compounded" , type: "number" , scale: "years"
+         name: "Times_compounded" , type: "number" , scale: ""
      },{
         name: 'Loan_term_years' , type: 'number' , scale : "years"
      },{
-        name: 'Payments_made' , type: 'number' , scale : "years"
+        name: 'Payments_made' , type: 'number' , scale : ""
      }
 ]
 

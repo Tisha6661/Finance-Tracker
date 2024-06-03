@@ -9,7 +9,7 @@ import styles from "./BlockStyles.module.css";
 
 function calsimpleinterest(Principal_amount, Annual_rate, Years){
     let si;
-    si = Principal_amount * (1 + Annual_rate * Years);
+    si = Principal_amount * (1 + (Annual_rate/100) * Years);
     return si.toFixed(2);
 }
 

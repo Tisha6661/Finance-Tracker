@@ -10,7 +10,7 @@ import styles from "./BlockStyles.module.css";
 
 function calCompoundInterest(Principal_amount, Annual_rate, Years, Times_compounded){
     let ci;
-    ci = Principal_amount * (1 + Annual_rate / Times_compounded) ** (Times_compounded * Years);
+    ci = Principal_amount * (1 + (Annual_rate/100) / Times_compounded) ** (Times_compounded * Years);
     return ci.toFixed(2);
 }
 
