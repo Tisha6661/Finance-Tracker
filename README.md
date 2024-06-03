@@ -26,7 +26,10 @@ After starting the application, users can keep track of personal finance, invest
 The project uses Tailwind CSS and Daisy UI for the Design Part , ShepherdPro for the introduction .
 
 ## ScreenShots
-
+![image](https://github.com/Tisha6661/Finance-Tracker/assets/98682478/f3d37212-aa33-4439-9d9c-982357564ae0)
+![image](https://github.com/Tisha6661/Finance-Tracker/assets/98682478/bf752bc2-193c-4e2e-90a4-2de7054bc62f)
+![image](https://github.com/Tisha6661/Finance-Tracker/assets/98682478/62e3d8f9-9ab4-430d-9cfa-dc4040f1440a)
+![image](https://github.com/Tisha6661/Finance-Tracker/assets/98682478/a9cf3f4f-4b39-47bb-a390-ba84720d65b0)
 
 
 ## Contributing
